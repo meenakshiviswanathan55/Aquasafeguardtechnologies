@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Safeguard Technologies - Water Purification Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-brand">
+                    <img src="images/aqua-safeguard-logo-nav.png" alt="Aqua Safeguard Technologies Logo" class="logo">
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact us</a></li>
+                </ul>
+                <button class="nav-toggle" id="nav-toggle">
+                    <span class="hamburger"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Slider Section -->
+        <section class="hero-section">
+            <div class="slider-container">
+                <!-- Slide 1 -->
+                <div class="slide active">
+                    <div class="container">
+                        <div class="slide-content">
+                            <div class="slide-text">
+                                <h1>Smartly Purified Water, Everywhere You Need</h1>
+                                <p>Advanced purification technology that ensures clean, safe water for your entire family, wherever you are.</p>
+                                <a href="products.html" class="btn btn-primary">Explore now</a>
+                            </div>
+                            <div class="slide-image">
+                                <img src="/placeholder.svg?height=400&width=300&text=Water+Purifier" alt="Water Purifier">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <div class="container">
+                        <div class="slide-content">
+                            <div class="slide-text">
+                                <h1>Pure, Safe Water for Every Corner of Your Home</h1>
+                                <p>Trusted purification systems designed to keep your family healthy and your water clean.</p>
+                                <a href="products.html" class="btn btn-primary">Explore now</a>
+                            </div>
+                            <div class="slide-image">
+                                <img src="/placeholder.svg?height=400&width=300&text=AQUA+2090+RAGA" alt="AQUA 2090 RAGA Series">
+                                <div class="product-info">
+                                    <h3>AQUA 2090</h3>
+                                    <p>RAGA Series</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <div class="container">
+                        <div class="slide-content">
+                            <div class="slide-text">
+                                <h1>Smart Water Solutions for Safer Living</h1>
+                                <p>High-performance systems that guarantee clean, fresh water for every use.</p>
+                                <a href="products.html" class="btn btn-primary">Explore now</a>
+                            </div>
+                            <div class="slide-image">
+                                <img src="/placeholder.svg?height=400&width=300&text=ZERO+B+Auto+Soft" alt="ZERO B Auto Soft">
+                                <div class="product-info">
+                                    <h3>ZERO B</h3>
+                                    <p>Auto Soft</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <div class="container">
+                        <div class="slide-content">
+                            <div class="slide-text">
+                                <h1>Clean Water. Healthy Living.</h1>
+                                <p>Eco-friendly, advanced purification systems built to protect what matters most.</p>
+                                <a href="products.html" class="btn btn-primary">Explore now</a>
+                            </div>
+                            <div class="slide-image">
+                                <div class="product-grid">
+                                    <img src="/placeholder.svg?height=200&width=150&text=Purifier+1" alt="Water Purifier 1">
+                                    <img src="/placeholder.svg?height=200&width=150&text=Purifier+2" alt="Water Purifier 2">
+                                    <img src="/placeholder.svg?height=200&width=150&text=Purifier+3" alt="Water Purifier 3">
+                                    <img src="/placeholder.svg?height=200&width=150&text=Purifier+4" alt="Water Purifier 4">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 5 -->
+                <div class="slide">
+                    <div class="container">
+                        <div class="slide-content">
+                            <div class="slide-text">
+                                <h1>Pure, Safe Water for Every Corner of Your Home</h1>
+                                <p>Advanced filtration technology that delivers crystal-clear water throughout your home.</p>
+                                <a href="products.html" class="btn btn-primary">Explore now</a>
+                            </div>
+                            <div class="slide-image">
+                                <img src="/placeholder.svg?height=400&width=300&text=AQUA+IRIS+NEBULA" alt="AQUA IRIS NEBULA Series">
+                                <div class="product-info">
+                                    <h3>AQUA IRIS</h3>
+                                    <p>NEBULA Series</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider Navigation -->
+            <div class="slider-nav">
+                <button class="slider-dot active" data-slide="0"></button>
+                <button class="slider-dot" data-slide="1"></button>
+                <button class="slider-dot" data-slide="2"></button>
+                <button class="slider-dot" data-slide="3"></button>
+                <button class="slider-dot" data-slide="4"></button>
+            </div>
+
+            <!-- Slider Arrows -->
+            <button class="slider-arrow slider-prev" id="slider-prev">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+            </button>
+            <button class="slider-arrow slider-next" id="slider-next">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </section>
+
+        <!-- Company Values Section -->
+        <section class="values-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>We're Number <span class="highlight">#1</span> For A Reason</h2>
+                </div>
+                <div class="values-grid">
+                    <div class="value-card value-card-primary">
+                        <h3>32+ Years of Expertise</h3>
+                        <p>Experience decades of excellence in water purification with Aqua Safeguard Technologies - a brand trusted by over 2000+ satisfied customers for reliable water solutions.</p>
+                    </div>
+                    <div class="value-card value-card-secondary">
+                        <h3>Trusted by 2600+ Customers</h3>
+                        <p>With 2600+ satisfied clients, Aqua Safeguard Technologies has earned the trust of homeowners and businesses across the region with our superior water purification solutions and services.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Products Section -->
+        <section class="products-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>MOST POPULAR PRODUCTS</h2>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="/placeholder.svg?height=200&width=150&text=AQUA+2090+RAGA" alt="AQUA 2090 RAGA Series">
+                        <h4>AQUA 2090</h4>
+                        <p>RAGA Series</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/placeholder.svg?height=200&width=150&text=LX+One+Cabinet" alt="LX One Cabinet">
+                        <h4>LX One</h4>
+                        <p>Cabinet</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/placeholder.svg?height=200&width=150&text=AQUA+INNOVICA" alt="AQUA INNOVICA">
+                        <h4>AQUA</h4>
+                        <p>INNOVICA</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/placeholder.svg?height=200&width=150&text=CANIK+METALLIC+Series" alt="CANIK METALLIC Series">
+                        <h4>CANIK</h4>
+                        <p>METALLIC Series</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/placeholder.svg?height=200&width=150&text=AQUA+IRIS" alt="AQUA IRIS">
+                        <h4>AQUA</h4>
+                        <p>IRIS</p>
+                    </div>
+                    <div class="product-card">
+                        <img src="/placeholder.svg?height=200&width=150&text=LX+Two+Cherry+Red" alt="LX Two Cherry Red">
+                        <h4>LX Two</h4>
+                        <p>Cherry Red</p>
+                    </div>
+                </div>
+                <div class="section-footer">
+                    <a href="products.html" class="btn btn-primary">See more</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Offer Banner Section -->
+        <section class="offer-section">
+            <div class="container">
+                <div class="offer-content">
+                    <h2>Exchange Offer Available!!</h2>
+                    <p>for Domestic Products and</p>
+                    <p class="offer-price">Rs.3000 cash back.</p>
+                </div>
+                <div class="offer-decorations">
+                    <div class="decoration decoration-1"></div>
+                    <div class="decoration decoration-2"></div>
+                    <div class="decoration decoration-3"></div>
+                    <div class="decoration decoration-4"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Product Section -->
+        <section class="featured-section">
+            <div class="container">
+                <div class="featured-content">
+                    <div class="featured-image">
+                        <img src="/placeholder.svg?height=400&width=300&text=Zero+B+Auto+Soft+3" alt="Semi-Automatic Zero B Auto Soft 3 Water Softener">
+                        <div class="water-effect water-effect-1"></div>
+                        <div class="water-effect water-effect-2"></div>
+                    </div>
+                    <div class="featured-text">
+                        <h2>Semi-Automatic Zero B Auto Soft 3 Water Softener, For Domestic</h2>
+                        <p>Auto Soft 3 converts hard water into soft water and comes with distinctive Purple Resin Media. It is a water softener for home that increases the lifespan of expensive bathrooms and kitchen appliances.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our trusted clients</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card testimonial-primary">
+                        <div class="testimonial-header">
+                            <img src="/placeholder.svg?height=50&width=50&text=S" alt="Sarah Johnson">
+                            <div class="testimonial-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Homeowner</p>
+                            </div>
+                        </div>
+                        <p>"Excellent water purification system! The water quality has improved significantly and the service team is very professional."</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <div class="testimonial-card testimonial-secondary">
+                        <div class="testimonial-header">
+                            <img src="/placeholder.svg?height=50&width=50&text=M" alt="Michael Chen">
+                            <div class="testimonial-info">
+                                <h4>Michael Chen</h4>
+                                <p>Business Owner</p>
+                            </div>
+                        </div>
+                        <p>"Great investment for our office. The maintenance service is reliable and the water quality is consistently excellent."</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <div class="testimonial-card testimonial-primary">
+                        <div class="testimonial-header">
+                            <img src="/placeholder.svg?height=50&width=50&text=E" alt="Emily Rodriguez">
+                            <div class="testimonial-info">
+                                <h4>Emily Rodriguez</h4>
+                                <p>Restaurant Manager</p>
+                            </div>
+                        </div>
+                        <p>"Perfect solution for our restaurant. The water softener has extended the life of our kitchen equipment significantly."</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <div class="testimonial-card testimonial-secondary">
+                        <div class="testimonial-header">
+                            <img src="/placeholder.svg?height=50&width=50&text=D" alt="David Kumar">
+                            <div class="testimonial-info">
+                                <h4>David Kumar</h4>
+                                <p>Hotel Owner</p>
+                            </div>
+                        </div>
+                        <p>"Outstanding service and product quality. Our guests have noticed the difference in water quality throughout our hotel."</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <div class="testimonial-card testimonial-primary">
+                        <div class="testimonial-header">
+                            <img src="/placeholder.svg?height=50&width=50&text=L" alt="Lisa Thompson">
+                            <div class="testimonial-info">
+                                <h4>Lisa Thompson</h4>
+                                <p>Apartment Complex Manager</p>
+                            </div>
+                        </div>
+                        <p>"Reliable and efficient water purification for our entire complex. The maintenance team is always prompt and professional."</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                    <div class="testimonial-card testimonial-secondary">
+                        <div class="testimonial-header">
+                            <img src="/placeholder.svg?height=50&width=50&text=R" alt="Robert Wilson">
+                            <div class="testimonial-info">
+                                <h4>Robert Wilson</h4>
+                                <p>Manufacturing Plant Manager</p>
+                            </div>
+                        </div>
+                        <p>"Industrial-grade water treatment that meets all our manufacturing needs. Excellent technical support and service."</p>
+                        <div class="rating">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section">
+            <div class="container">
+                <div class="services-header">
+                    <p class="services-subtitle">Our Services</p>
+                    <h2>We Transform Ordinary Tap<br>Water Into Clean</h2>
+                </div>
+                <div class="services-content">
+                    <div class="services-text">
+                        <h3>Schedule a Free Demo<br>and Water Test</h3>
+                        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                    </div>
+                    <div class="services-image">
+                        <img src="/placeholder.svg?height=200&width=300&text=Water+Tap+Filter" alt="Water tap with filter">
+                    </div>
+                </div>
+                <div class="floating-bubbles">
+                    <div class="bubble bubble-1"></div>
+                    <div class="bubble bubble-2"></div>
+                    <div class="bubble bubble-3"></div>
+                    <div class="bubble bubble-4"></div>
+                    <div class="bubble bubble-5"></div>
+                    <div class="bubble bubble-6"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-brand">
+                <img src="images/aqua-safeguard-logo-nav.png" alt="Aqua Safeguard Technologies Logo" class="footer-logo">
+            </div>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About us</h4>
+                    <p>Aqua Safeguard Technologies is dedicated to providing clean, safe, and healthy drinking water through advanced and reliable purification solutions. Our water purifiers are designed to effectively remove harmful contaminants while retaining essential minerals, ensuring every drop is pure and refreshing. With a strong focus on innovation, quality, and customer satisfaction, we strive to make safe drinking water accessible and affordable for every household, because we believe clean water is a basic necessity, not a privilege.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="domestic.html">Domestic Products</a></li>
+                        <li><a href="commercial.html">Commercial Solutions</a></li>
+                        <li><a href="industrial.html">Industrial Water Treatment</a></li>
+                        <li><a href="#">Maintenance & Support</a></li>
+                        <li><a href="#">Water Testing Services</a></li>
+                        <li><a href="#">Installation Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <strong>Call:</strong>
+                            <p>+91 9994430555</p>
+                            <p>+91 9095494893</p>
+                            <p>+91 9698330555</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <p>aquasafegaurdtechnologies@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Address:</strong>
+                            <p>4/487, Kalaingar Street, Thasilthar nagar, Madurai - 625020</p>
+                        </div>
+                    </div>
+                    <div class="quick-links">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright 2025 Water Purifier. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
