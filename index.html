@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aqua Safeguard Technologies - Water Purification Solutions</title>
+    <meta name="description" content="Aqua Safeguard Technologies - Advanced water purification solutions for home and business">
+    <meta name="keywords" content="water purifier, water softener, RO system, water treatment">
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="Product-Images/Home/ASGLOGO.svg" as="image">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,14 +24,14 @@
         <div class="container">
             <nav class="nav">
                 <div class="nav-brand">
-                    <img src="images/aqua-safeguard-logo-nav.png" alt="Aqua Safeguard Technologies Logo" class="logo">
+                    <img src="Product-Images/Home/ASGLOGO.svg" alt="Aqua Safeguard Technologies Logo" class="logo">
                 </div>
                 <ul class="nav-menu" id="nav-menu">
                     <li><a href="index.html" class="nav-link">Home</a></li>
                     <li><a href="products.html" class="nav-link">Products</a></li>
                     <li><a href="contact.html" class="nav-link">Contact us</a></li>
                 </ul>
-                <button class="nav-toggle" id="nav-toggle">
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
                     <span class="hamburger"></span>
                 </button>
             </nav>
@@ -38,10 +50,10 @@
                             <div class="slide-text">
                                 <h1>Smartly Purified Water, Everywhere You Need</h1>
                                 <p>Advanced purification technology that ensures clean, safe water for your entire family, wherever you are.</p>
-                                <a href="products.html" class="btn btn-primary">Explore now</a>
+                                <a href="products.html" class="btn btn-primary explore-btn">Explore now</a>
                             </div>
                             <div class="slide-image">
-                                <img src="/placeholder.svg?height=400&width=300&text=Water+Purifier" alt="Water Purifier">
+                                <img src="Product-Images/Home/slides/Ragahomeslides.svg" alt="Water Purifier" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -54,14 +66,10 @@
                             <div class="slide-text">
                                 <h1>Pure, Safe Water for Every Corner of Your Home</h1>
                                 <p>Trusted purification systems designed to keep your family healthy and your water clean.</p>
-                                <a href="products.html" class="btn btn-primary">Explore now</a>
+                                <a href="products.html" class="btn btn-primary explore-btn">Explore now</a>
                             </div>
                             <div class="slide-image">
-                                <img src="/placeholder.svg?height=400&width=300&text=AQUA+2090+RAGA" alt="AQUA 2090 RAGA Series">
-                                <div class="product-info">
-                                    <h3>AQUA 2090</h3>
-                                    <p>RAGA Series</p>
-                                </div>
+                                <img src="Product-Images/Home/slides/Grpinnovica.svg" alt="AQUA 2090 RAGA Series" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -74,14 +82,10 @@
                             <div class="slide-text">
                                 <h1>Smart Water Solutions for Safer Living</h1>
                                 <p>High-performance systems that guarantee clean, fresh water for every use.</p>
-                                <a href="products.html" class="btn btn-primary">Explore now</a>
+                                <a href="products.html" class="btn btn-primary explore-btn">Explore now</a>
                             </div>
                             <div class="slide-image">
-                                <img src="/placeholder.svg?height=400&width=300&text=ZERO+B+Auto+Soft" alt="ZERO B Auto Soft">
-                                <div class="product-info">
-                                    <h3>ZERO B</h3>
-                                    <p>Auto Soft</p>
-                                </div>
+                                <img src="Product-Images/Home/slides/slide3.svg" alt="ZERO B Auto Soft" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -94,15 +98,10 @@
                             <div class="slide-text">
                                 <h1>Clean Water. Healthy Living.</h1>
                                 <p>Eco-friendly, advanced purification systems built to protect what matters most.</p>
-                                <a href="products.html" class="btn btn-primary">Explore now</a>
+                                <a href="products.html" class="btn btn-primary explore-btn">Explore now</a>
                             </div>
                             <div class="slide-image">
-                                <div class="product-grid">
-                                    <img src="/placeholder.svg?height=200&width=150&text=Purifier+1" alt="Water Purifier 1">
-                                    <img src="/placeholder.svg?height=200&width=150&text=Purifier+2" alt="Water Purifier 2">
-                                    <img src="/placeholder.svg?height=200&width=150&text=Purifier+3" alt="Water Purifier 3">
-                                    <img src="/placeholder.svg?height=200&width=150&text=Purifier+4" alt="Water Purifier 4">
-                                </div>
+                                <img src="Product-Images/Home/slides/Grpinnovica.svg" alt="Water Purifier 1" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -115,14 +114,10 @@
                             <div class="slide-text">
                                 <h1>Pure, Safe Water for Every Corner of Your Home</h1>
                                 <p>Advanced filtration technology that delivers crystal-clear water throughout your home.</p>
-                                <a href="products.html" class="btn btn-primary">Explore now</a>
+                                <a href="products.html" class="btn btn-primary explore-btn">Explore now</a>
                             </div>
                             <div class="slide-image">
-                                <img src="/placeholder.svg?height=400&width=300&text=AQUA+IRIS+NEBULA" alt="AQUA IRIS NEBULA Series">
-                                <div class="product-info">
-                                    <h3>AQUA IRIS</h3>
-                                    <p>NEBULA Series</p>
-                                </div>
+                                <img src="Product-Images/Home/Mostpopular/Autosofthome.svg" alt="AQUA IRIS NEBULA Series" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -131,20 +126,20 @@
 
             <!-- Slider Navigation -->
             <div class="slider-nav">
-                <button class="slider-dot active" data-slide="0"></button>
-                <button class="slider-dot" data-slide="1"></button>
-                <button class="slider-dot" data-slide="2"></button>
-                <button class="slider-dot" data-slide="3"></button>
-                <button class="slider-dot" data-slide="4"></button>
+                <button class="slider-dot active" data-slide="0" aria-label="Go to slide 1"></button>
+                <button class="slider-dot" data-slide="1" aria-label="Go to slide 2"></button>
+                <button class="slider-dot" data-slide="2" aria-label="Go to slide 3"></button>
+                <button class="slider-dot" data-slide="3" aria-label="Go to slide 4"></button>
+                <button class="slider-dot" data-slide="4" aria-label="Go to slide 5"></button>
             </div>
 
             <!-- Slider Arrows -->
-            <button class="slider-arrow slider-prev" id="slider-prev">
+            <button class="slider-arrow slider-prev" id="slider-prev" aria-label="Previous slide">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
                 </svg>
             </button>
-            <button class="slider-arrow slider-next" id="slider-next">
+            <button class="slider-arrow slider-next" id="slider-next" aria-label="Next slide">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>
@@ -178,32 +173,32 @@
                 </div>
                 <div class="products-grid">
                     <div class="product-card">
-                        <img src="/placeholder.svg?height=200&width=150&text=AQUA+2090+RAGA" alt="AQUA 2090 RAGA Series">
+                        <img src="Product-Images/domestic-Images/twoninty/twoninty1.svg" alt="AQUA 2090 RAGA Series" loading="lazy">
                         <h4>AQUA 2090</h4>
                         <p>RAGA Series</p>
                     </div>
                     <div class="product-card">
-                        <img src="/placeholder.svg?height=200&width=150&text=LX+One+Cabinet" alt="LX One Cabinet">
+                        <img src="Product-Images/Home/Mostpopular/HLXone.svg" alt="LX One Cabinet" loading="lazy">
                         <h4>LX One</h4>
                         <p>Cabinet</p>
                     </div>
                     <div class="product-card">
-                        <img src="/placeholder.svg?height=200&width=150&text=AQUA+INNOVICA" alt="AQUA INNOVICA">
+                        <img src="Product-Images/Home/Mostpopular/Hinnovica.svg" alt="AQUA INNOVICA" loading="lazy">
                         <h4>AQUA</h4>
                         <p>INNOVICA</p>
                     </div>
                     <div class="product-card">
-                        <img src="/placeholder.svg?height=200&width=150&text=CANIK+METALLIC+Series" alt="CANIK METALLIC Series">
-                        <h4>CANIK</h4>
+                        <img src="Product-Images/Home/Mostpopular/Hcanix.svg" alt="CANIK METALLIC Series" loading="lazy">
+                        <h4>CANIX</h4>
                         <p>METALLIC Series</p>
                     </div>
                     <div class="product-card">
-                        <img src="/placeholder.svg?height=200&width=150&text=AQUA+IRIS" alt="AQUA IRIS">
+                        <img src="Product-Images/Home/Mostpopular/Hiris.svg" alt="AQUA IRIS" loading="lazy">
                         <h4>AQUA</h4>
                         <p>IRIS</p>
                     </div>
                     <div class="product-card">
-                        <img src="/placeholder.svg?height=200&width=150&text=LX+Two+Cherry+Red" alt="LX Two Cherry Red">
+                        <img src="Product-Images/Home/Mostpopular/Hlxtwo.svg" alt="LX Two Cherry Red" loading="lazy">
                         <h4>LX Two</h4>
                         <p>Cherry Red</p>
                     </div>
@@ -232,21 +227,35 @@
         </section>
 
         <!-- Featured Product Section -->
-        <section class="featured-section">
-            <div class="container">
-                <div class="featured-content">
-                    <div class="featured-image">
-                        <img src="/placeholder.svg?height=400&width=300&text=Zero+B+Auto+Soft+3" alt="Semi-Automatic Zero B Auto Soft 3 Water Softener">
-                        <div class="water-effect water-effect-1"></div>
-                        <div class="water-effect water-effect-2"></div>
-                    </div>
-                    <div class="featured-text">
-                        <h2>Semi-Automatic Zero B Auto Soft 3 Water Softener, For Domestic</h2>
-                        <p>Auto Soft 3 converts hard water into soft water and comes with distinctive Purple Resin Media. It is a water softener for home that increases the lifespan of expensive bathrooms and kitchen appliances.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<section class="featured-section">
+  <div class="container">
+    <div class="featured-content">
+      <!-- Product Image -->
+      <div class="featured-image">
+        <img src="Product-Images/Home/Mostpopular/aqsh.svg" 
+             alt="Semi-Automatic Zero B Auto Soft 3 Water Softener" 
+             loading="lazy">
+      </div>
+
+      <!-- Product Text -->
+      <div class="featured-text">
+        <h2>Semi-Automatic Zero B Auto Soft 3 Water Softener, For Domestic</h2>
+        <p>
+          Water softeners bring multiple benefits for homes:
+          <br><br>
+          • Reduce soap scum & scale buildup.<br>
+          • Extend appliance life by preventing mineral deposits.<br>
+          • Gentle on skin & hair.<br>
+          • Cleaner dishes and laundry.<br>
+          • Lower plumbing maintenance needs.<br>
+          • Improve efficiency & save energy.<br>
+          • Enhance taste and odor of water.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         <!-- Testimonials Section -->
         <section class="testimonials-section">
@@ -257,9 +266,9 @@
                 <div class="testimonials-grid">
                     <div class="testimonial-card testimonial-primary">
                         <div class="testimonial-header">
-                            <img src="/placeholder.svg?height=50&width=50&text=S" alt="Sarah Johnson">
+                            <img src="Product-Images/client/client1.svg" alt="Silambarasan" loading="lazy">
                             <div class="testimonial-info">
-                                <h4>Sarah Johnson</h4>
+                                <h4>Silambarasan</h4>
                                 <p>Homeowner</p>
                             </div>
                         </div>
@@ -268,9 +277,9 @@
                     </div>
                     <div class="testimonial-card testimonial-secondary">
                         <div class="testimonial-header">
-                            <img src="/placeholder.svg?height=50&width=50&text=M" alt="Michael Chen">
+                            <img src="Product-Images/client/client2.svg" alt="Subbaraj" loading="lazy">
                             <div class="testimonial-info">
-                                <h4>Michael Chen</h4>
+                                <h4>Subbaraj</h4>
                                 <p>Business Owner</p>
                             </div>
                         </div>
@@ -279,9 +288,9 @@
                     </div>
                     <div class="testimonial-card testimonial-primary">
                         <div class="testimonial-header">
-                            <img src="/placeholder.svg?height=50&width=50&text=E" alt="Emily Rodriguez">
+                            <img src="Product-Images/client/client3.svg" alt="Ashok" loading="lazy">
                             <div class="testimonial-info">
-                                <h4>Emily Rodriguez</h4>
+                                <h4>Ashok</h4>
                                 <p>Restaurant Manager</p>
                             </div>
                         </div>
@@ -290,9 +299,9 @@
                     </div>
                     <div class="testimonial-card testimonial-secondary">
                         <div class="testimonial-header">
-                            <img src="/placeholder.svg?height=50&width=50&text=D" alt="David Kumar">
+                            <img src="Product-Images/client/client4.svg" alt="Shanthi" loading="lazy">
                             <div class="testimonial-info">
-                                <h4>David Kumar</h4>
+                                <h4>Shanthi</h4>
                                 <p>Hotel Owner</p>
                             </div>
                         </div>
@@ -301,9 +310,9 @@
                     </div>
                     <div class="testimonial-card testimonial-primary">
                         <div class="testimonial-header">
-                            <img src="/placeholder.svg?height=50&width=50&text=L" alt="Lisa Thompson">
+                            <img src="Product-Images/client/client5.svg" alt="Lavanya" loading="lazy">
                             <div class="testimonial-info">
-                                <h4>Lisa Thompson</h4>
+                                <h4>Lavanya</h4>
                                 <p>Apartment Complex Manager</p>
                             </div>
                         </div>
@@ -312,9 +321,9 @@
                     </div>
                     <div class="testimonial-card testimonial-secondary">
                         <div class="testimonial-header">
-                            <img src="/placeholder.svg?height=50&width=50&text=R" alt="Robert Wilson">
+                            <img src="Product-Images/client/client6.svg" alt="Murali" loading="lazy">
                             <div class="testimonial-info">
-                                <h4>Robert Wilson</h4>
+                                <h4>Murali</h4>
                                 <p>Manufacturing Plant Manager</p>
                             </div>
                         </div>
@@ -338,7 +347,7 @@
                         <a href="contact.html" class="btn btn-primary">Contact Us</a>
                     </div>
                     <div class="services-image">
-                        <img src="/placeholder.svg?height=200&width=300&text=Water+Tap+Filter" alt="Water tap with filter">
+                        <img src="Product-Images/Home/Mostpopular/Tap.svg" alt="Water tap with filter" loading="lazy">
                     </div>
                 </div>
                 <div class="floating-bubbles">
@@ -357,7 +366,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-brand">
-                <img src="images/aqua-safeguard-logo-nav.png" alt="Aqua Safeguard Technologies Logo" class="footer-logo">
+                <img src="Product-Images/Home/asglogofooter.svg" alt="Aqua Safeguard Technologies Logo" class="footer-logo" loading="lazy">
             </div>
             <div class="footer-content">
                 <div class="footer-section">
